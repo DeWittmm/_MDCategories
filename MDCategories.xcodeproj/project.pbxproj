@@ -26,6 +26,7 @@
 		0AC55C971A1B251F00A9B9DB /* UIColor+ex_isLightColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC55C8B1A1B251F00A9B9DB /* UIColor+ex_isLightColor.m */; };
 		0AC55C9A1A1B254800A9B9DB /* MDDateFormattingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC55C981A1B254800A9B9DB /* MDDateFormattingTest.m */; };
 		0AC55C9B1A1B254800A9B9DB /* MDMutableArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC55C991A1B254800A9B9DB /* MDMutableArrayTests.m */; };
+		0AC55CA01A1B27CD00A9B9DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC55C9F1A1B27CD00A9B9DB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		0AC55C8B1A1B251F00A9B9DB /* UIColor+ex_isLightColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ex_isLightColor.m"; sourceTree = SOURCE_ROOT; };
 		0AC55C981A1B254800A9B9DB /* MDDateFormattingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDateFormattingTest.m; sourceTree = "<group>"; };
 		0AC55C991A1B254800A9B9DB /* MDMutableArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMutableArrayTests.m; sourceTree = "<group>"; };
+		0AC55C9F1A1B27CD00A9B9DB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				0AC55C5E1A1B24A500A9B9DB /* AppDelegate.h */,
 				0AC55C5F1A1B24A500A9B9DB /* AppDelegate.m */,
 				0AC55C671A1B24A500A9B9DB /* Images.xcassets */,
+				0AC55C9F1A1B27CD00A9B9DB /* Main.storyboard */,
 				0AC55C691A1B24A500A9B9DB /* LaunchScreen.xib */,
 				0AC55C5B1A1B24A500A9B9DB /* Info.plist */,
 				0AC55C5C1A1B24A500A9B9DB /* main.m */,
@@ -257,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AC55CA01A1B27CD00A9B9DB /* Main.storyboard in Resources */,
 				0AC55C6B1A1B24A500A9B9DB /* LaunchScreen.xib in Resources */,
 				0AC55C681A1B24A500A9B9DB /* Images.xcassets in Resources */,
 			);
