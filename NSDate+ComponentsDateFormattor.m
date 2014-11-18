@@ -10,7 +10,7 @@
 
 @implementation NSDate (ComponentsDateFormattor)
 
-- (NSString *)rek_dateDayMonthYearComponents {
+- (NSString *)md_dateDayMonthYearComponents {
     NSDateComponents *components = [[NSCalendar currentCalendar] components:NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear fromDate:self];
     return [NSString stringWithFormat:@"%ld/%ld/%ld", (long)[components month], (long)[components day], (long)[components year]];
 }

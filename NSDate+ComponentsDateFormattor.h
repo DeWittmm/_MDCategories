@@ -10,6 +10,6 @@
 
 @interface NSDate (ComponentsDateFormattor)
 
-- (NSString *)rek_dateDayMonthYearComponents;
+- (NSString *)md_dateDayMonthYearComponents;
 
 @end

@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDate (ExOpenHours)
+@interface NSDate (DateInRange)
 
-+ (BOOL)rek_isTimeOfDate:(NSDate *)targetDate betweenStartDate:(NSDate *)startDate andEndDate:(NSDate *)endDate;
++ (BOOL)md_isTimeOfDate:(NSDate *)targetDate betweenStartDate:(NSDate *)startDate andEndDate:(NSDate *)endDate;
 
 @end

@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Startup-Weekend. All rights reserved.
 //
 
-#import "NSDate+OpenHours.h"
+#import "NSDate+DateInRange.h"
 
-@implementation NSDate (ExOpenHours)
+@implementation NSDate (DateInRange)
 
 //http://stackoverflow.com/questions/13102082/how-to-check-if-the-current-time-is-within-a-specified-range-in-ios
 
-+ (BOOL)rek_isTimeOfDate:(NSDate *)targetDate betweenStartDate:(NSDate *)startDate andEndDate:(NSDate *)endDate {
++ (BOOL)md_isTimeOfDate:(NSDate *)targetDate betweenStartDate:(NSDate *)startDate andEndDate:(NSDate *)endDate {
     
     NSParameterAssert(targetDate && startDate && endDate);
     
