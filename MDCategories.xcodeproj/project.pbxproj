@@ -12,8 +12,8 @@
 		0AC55C681A1B24A500A9B9DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC55C671A1B24A500A9B9DB /* Images.xcassets */; };
 		0AC55C6B1A1B24A500A9B9DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AC55C691A1B24A500A9B9DB /* LaunchScreen.xib */; };
 		0AC55C771A1B24A500A9B9DB /* MDCategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC55C761A1B24A500A9B9DB /* MDCategoriesTests.m */; };
-		0AC55C8C1A1B251F00A9B9DB /* NSDate+ComponentsDateFormattor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC55C811A1B251F00A9B9DB /* NSDate+ComponentsDateFormattor.m */; };
-		0AC55C8D1A1B251F00A9B9DB /* NSDate+ComponentsDateFormattor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC55C811A1B251F00A9B9DB /* NSDate+ComponentsDateFormattor.m */; };
+		0AC55C8C1A1B251F00A9B9DB /* NSDate+DateComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC55C811A1B251F00A9B9DB /* NSDate+DateComponents.m */; };
+		0AC55C8D1A1B251F00A9B9DB /* NSDate+DateComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC55C811A1B251F00A9B9DB /* NSDate+DateComponents.m */; };
 		0AC55C8E1A1B251F00A9B9DB /* NSDate+DateInRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC55C831A1B251F00A9B9DB /* NSDate+DateInRange.m */; };
 		0AC55C8F1A1B251F00A9B9DB /* NSDate+DateInRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC55C831A1B251F00A9B9DB /* NSDate+DateInRange.m */; };
 		0AC55C901A1B251F00A9B9DB /* NSIndexPath+PrintableIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC55C851A1B251F00A9B9DB /* NSIndexPath+PrintableIndexPath.m */; };
@@ -50,8 +50,8 @@
 		0AC55C701A1B24A500A9B9DB /* MDCategoriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDCategoriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC55C751A1B24A500A9B9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AC55C761A1B24A500A9B9DB /* MDCategoriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCategoriesTests.m; sourceTree = "<group>"; };
-		0AC55C801A1B251F00A9B9DB /* NSDate+ComponentsDateFormattor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ComponentsDateFormattor.h"; sourceTree = SOURCE_ROOT; };
-		0AC55C811A1B251F00A9B9DB /* NSDate+ComponentsDateFormattor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ComponentsDateFormattor.m"; sourceTree = SOURCE_ROOT; };
+		0AC55C801A1B251F00A9B9DB /* NSDate+DateComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateComponents.h"; sourceTree = SOURCE_ROOT; };
+		0AC55C811A1B251F00A9B9DB /* NSDate+DateComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateComponents.m"; sourceTree = SOURCE_ROOT; };
 		0AC55C821A1B251F00A9B9DB /* NSDate+DateInRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateInRange.h"; sourceTree = SOURCE_ROOT; };
 		0AC55C831A1B251F00A9B9DB /* NSDate+DateInRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateInRange.m"; sourceTree = SOURCE_ROOT; };
 		0AC55C841A1B251F00A9B9DB /* NSIndexPath+PrintableIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+PrintableIndexPath.h"; sourceTree = SOURCE_ROOT; };
@@ -152,8 +152,8 @@
 		0AC55C9C1A1B256C00A9B9DB /* NSDate */ = {
 			isa = PBXGroup;
 			children = (
-				0AC55C801A1B251F00A9B9DB /* NSDate+ComponentsDateFormattor.h */,
-				0AC55C811A1B251F00A9B9DB /* NSDate+ComponentsDateFormattor.m */,
+				0AC55C801A1B251F00A9B9DB /* NSDate+DateComponents.h */,
+				0AC55C811A1B251F00A9B9DB /* NSDate+DateComponents.m */,
 				0AC55C821A1B251F00A9B9DB /* NSDate+DateInRange.h */,
 				0AC55C831A1B251F00A9B9DB /* NSDate+DateInRange.m */,
 			);
@@ -286,7 +286,7 @@
 				0AC55C961A1B251F00A9B9DB /* UIColor+ex_isLightColor.m in Sources */,
 				0AC55C921A1B251F00A9B9DB /* NSMutableArray+EnumerateForMutation.m in Sources */,
 				0AC55C901A1B251F00A9B9DB /* NSIndexPath+PrintableIndexPath.m in Sources */,
-				0AC55C8C1A1B251F00A9B9DB /* NSDate+ComponentsDateFormattor.m in Sources */,
+				0AC55C8C1A1B251F00A9B9DB /* NSDate+DateComponents.m in Sources */,
 				0AC55C941A1B251F00A9B9DB /* NSMutableArray+RemoveSingle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +298,7 @@
 				0AC55C911A1B251F00A9B9DB /* NSIndexPath+PrintableIndexPath.m in Sources */,
 				0AC55C951A1B251F00A9B9DB /* NSMutableArray+RemoveSingle.m in Sources */,
 				0AC55C971A1B251F00A9B9DB /* UIColor+ex_isLightColor.m in Sources */,
-				0AC55C8D1A1B251F00A9B9DB /* NSDate+ComponentsDateFormattor.m in Sources */,
+				0AC55C8D1A1B251F00A9B9DB /* NSDate+DateComponents.m in Sources */,
 				0AC55CA21A1B2AFC00A9B9DB /* MDDateFormattingTests.m in Sources */,
 				0AC55C9B1A1B254800A9B9DB /* MDMutableArrayTests.m in Sources */,
 				0AC55C8F1A1B251F00A9B9DB /* NSDate+DateInRange.m in Sources */,
@@ -478,6 +478,7 @@
 				0AC55C7C1A1B24A500A9B9DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AC55C7D1A1B24A500A9B9DB /* Build configuration list for PBXNativeTarget "MDCategoriesTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +487,7 @@
 				0AC55C7F1A1B24A500A9B9DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

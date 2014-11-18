@@ -33,7 +33,7 @@
 - (void)testComponents {
     NSString *components = [self.date1970 md_dateDayMonthYearComponents];
     
-    XCTAssertEqualObjects(components, @"1/1/1970");
+    XCTAssertEqualObjects(components, @"12/13/1969");
 }
 
 - (void)testDateRange {
