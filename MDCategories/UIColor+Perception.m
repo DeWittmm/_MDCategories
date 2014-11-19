@@ -17,7 +17,7 @@
     return [self md_isPerceivedBrightWithCutoff:DEFAULT_CUTOFF];
 }
 
-- (BOOL)md_isPerceivedBrightWithCutoff:(CGFloat) cutOff {
+- (BOOL)md_isPerceivedBrightWithCutoff:(CGFloat)cutOff {
     
     CGFloat r = 0;
     CGFloat g = 0;

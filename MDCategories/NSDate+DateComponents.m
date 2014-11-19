@@ -26,7 +26,7 @@
     return [[self timeFormatter] stringFromDate:self];
 }
 
-- (NSString *)md_timeComponentsSecondsFromNow:(NSInteger)seconds {
++ (NSString *)md_timeComponentsSecondsFromNow:(NSInteger)seconds {
     NSDate *date = [NSDate dateWithTimeIntervalSinceNow:seconds];
     return [date md_timeComponents];
 }

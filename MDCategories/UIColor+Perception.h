@@ -18,6 +18,6 @@
  *	@param 	cutoff	The value to compare the overall brightness to.
  *	@return	True if the color is perceived to be bright.
  */
-- (BOOL)md_isPerceivedBrightWithCutoff:(CGFloat) cutOff;
+- (BOOL)md_isPerceivedBrightWithCutoff:(CGFloat)cutOff;
 
 @end

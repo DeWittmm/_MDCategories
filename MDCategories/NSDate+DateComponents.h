@@ -17,6 +17,6 @@
 /// hh:mm
 - (NSString *)md_timeComponents;
 
-- (NSString *)md_timeComponentsSecondsFromNow:(NSInteger)seconds;
++ (NSString *)md_timeComponentsSecondsFromNow:(NSInteger)seconds;
 
 @end

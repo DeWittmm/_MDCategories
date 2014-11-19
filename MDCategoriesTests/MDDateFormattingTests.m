@@ -30,7 +30,7 @@
     [super tearDown];
 }
 
-- (void)testComponents {
+- (void)testDateComponents {
     NSString *components = [self.date1970 md_dateDayMonthYearComponents];
     
     XCTAssertEqualObjects(components, @"12/31/1969");
@@ -39,6 +39,19 @@
     components = [self.date1970 md_dateDayMonthYearComponents];
     
     XCTAssertNil(components);
+    
+    NSDate *referenceDate = [NSDate dateWithTimeIntervalSinceReferenceDate:0];
+    components = [referenceDate md_dateDayMonthYearComponents];
+    
+    XCTAssertEqualObjects(components, @"12/31/2000");
+}
+
+- (void)testTimeCompnonets {
+    NSString *tComponents = [NSDate md_timeComponentsSecondsFromNow:0];
+    
+    NSDate *now = [NSDate date];
+    
+    XCTAssertEqualObjects([now md_timeComponents], tComponents);
 }
 
 - (void)testDateInRange {
