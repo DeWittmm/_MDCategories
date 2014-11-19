@@ -7,20 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A33FF231A1C781E00C0DC5B /* NSDate+DateComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF141A1C781E00C0DC5B /* NSDate+DateComponents.m */; };
-		0A33FF241A1C781E00C0DC5B /* NSDate+DateComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF141A1C781E00C0DC5B /* NSDate+DateComponents.m */; };
-		0A33FF251A1C781E00C0DC5B /* NSDate+DateInRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF161A1C781E00C0DC5B /* NSDate+DateInRange.m */; };
-		0A33FF261A1C781E00C0DC5B /* NSDate+DateInRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF161A1C781E00C0DC5B /* NSDate+DateInRange.m */; };
-		0A33FF271A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF181A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.m */; };
-		0A33FF281A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF181A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.m */; };
-		0A33FF291A1C781E00C0DC5B /* NSMutableArray+Removal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF1A1A1C781E00C0DC5B /* NSMutableArray+Removal.m */; };
-		0A33FF2A1A1C781E00C0DC5B /* NSMutableArray+Removal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF1A1A1C781E00C0DC5B /* NSMutableArray+Removal.m */; };
-		0A33FF2D1A1C781E00C0DC5B /* NSString+AddOns.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF1E1A1C781E00C0DC5B /* NSString+AddOns.m */; };
-		0A33FF2E1A1C781E00C0DC5B /* NSString+AddOns.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF1E1A1C781E00C0DC5B /* NSString+AddOns.m */; };
-		0A33FF2F1A1C781E00C0DC5B /* UIColor+Perception.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF201A1C781E00C0DC5B /* UIColor+Perception.m */; };
-		0A33FF301A1C781E00C0DC5B /* UIColor+Perception.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF201A1C781E00C0DC5B /* UIColor+Perception.m */; };
-		0A33FF311A1C781E00C0DC5B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF221A1C781E00C0DC5B /* UIView+Frame.m */; };
-		0A33FF321A1C781E00C0DC5B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF221A1C781E00C0DC5B /* UIView+Frame.m */; };
 		0A33FF3D1A1C785800C0DC5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF351A1C785800C0DC5B /* AppDelegate.m */; };
 		0A33FF3E1A1C785800C0DC5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A33FF371A1C785800C0DC5B /* LaunchScreen.xib */; };
 		0A33FF3F1A1C785800C0DC5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A33FF391A1C785800C0DC5B /* Images.xcassets */; };
@@ -28,6 +14,13 @@
 		0A33FF421A1C785800C0DC5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A33FF3C1A1C785800C0DC5B /* Main.storyboard */; };
 		0A33FF451A1C789200C0DC5B /* MDDateFormattingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF441A1C789200C0DC5B /* MDDateFormattingTests.m */; };
 		0A33FF791A1C824E00C0DC5B /* MDColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF781A1C824E00C0DC5B /* MDColorTests.m */; };
+		0A3D34611A1D06BC009C4D73 /* NSDate+DateComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D345E1A1D06BC009C4D73 /* NSDate+DateComponents.m */; };
+		0A3D34621A1D06BC009C4D73 /* NSDate+DateInRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D34601A1D06BC009C4D73 /* NSDate+DateInRange.m */; };
+		0A3D34651A1D06D6009C4D73 /* NSIndexPath+PrintableIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D34641A1D06D6009C4D73 /* NSIndexPath+PrintableIndexPath.m */; };
+		0A3D34681A1D06EE009C4D73 /* NSMutableArray+Removal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D34671A1D06EE009C4D73 /* NSMutableArray+Removal.m */; };
+		0A3D346B1A1D0701009C4D73 /* NSString+AddOns.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D346A1A1D0701009C4D73 /* NSString+AddOns.m */; };
+		0A3D34701A1D0710009C4D73 /* UIColor+Perception.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D346D1A1D0710009C4D73 /* UIColor+Perception.m */; };
+		0A3D34711A1D0710009C4D73 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D346F1A1D0710009C4D73 /* UIView+Frame.m */; };
 		0AC55C9B1A1B254800A9B9DB /* MDMutableArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC55C991A1B254800A9B9DB /* MDMutableArrayTests.m */; };
 /* End PBXBuildFile section */
 
@@ -42,20 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A33FF131A1C781E00C0DC5B /* NSDate+DateComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateComponents.h"; sourceTree = "<group>"; };
-		0A33FF141A1C781E00C0DC5B /* NSDate+DateComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateComponents.m"; sourceTree = "<group>"; };
-		0A33FF151A1C781E00C0DC5B /* NSDate+DateInRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateInRange.h"; sourceTree = "<group>"; };
-		0A33FF161A1C781E00C0DC5B /* NSDate+DateInRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateInRange.m"; sourceTree = "<group>"; };
-		0A33FF171A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+PrintableIndexPath.h"; sourceTree = "<group>"; };
-		0A33FF181A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+PrintableIndexPath.m"; sourceTree = "<group>"; };
-		0A33FF191A1C781E00C0DC5B /* NSMutableArray+Removal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Removal.h"; sourceTree = "<group>"; };
-		0A33FF1A1A1C781E00C0DC5B /* NSMutableArray+Removal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Removal.m"; sourceTree = "<group>"; };
-		0A33FF1D1A1C781E00C0DC5B /* NSString+AddOns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AddOns.h"; sourceTree = "<group>"; };
-		0A33FF1E1A1C781E00C0DC5B /* NSString+AddOns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AddOns.m"; sourceTree = "<group>"; };
-		0A33FF1F1A1C781E00C0DC5B /* UIColor+Perception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Perception.h"; sourceTree = "<group>"; };
-		0A33FF201A1C781E00C0DC5B /* UIColor+Perception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Perception.m"; sourceTree = "<group>"; };
-		0A33FF211A1C781E00C0DC5B /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		0A33FF221A1C781E00C0DC5B /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		0A33FF341A1C785800C0DC5B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Example/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		0A33FF351A1C785800C0DC5B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Example/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		0A33FF381A1C785800C0DC5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -65,6 +44,21 @@
 		0A33FF3C1A1C785800C0DC5B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Example/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		0A33FF441A1C789200C0DC5B /* MDDateFormattingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDateFormattingTests.m; sourceTree = "<group>"; };
 		0A33FF781A1C824E00C0DC5B /* MDColorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDColorTests.m; sourceTree = "<group>"; };
+		0A3D345C1A1D0628009C4D73 /* MDCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCategories.h; sourceTree = "<group>"; };
+		0A3D345D1A1D06BC009C4D73 /* NSDate+DateComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+DateComponents.h"; path = "NSDate/NSDate+DateComponents.h"; sourceTree = "<group>"; };
+		0A3D345E1A1D06BC009C4D73 /* NSDate+DateComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+DateComponents.m"; path = "NSDate/NSDate+DateComponents.m"; sourceTree = "<group>"; };
+		0A3D345F1A1D06BC009C4D73 /* NSDate+DateInRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+DateInRange.h"; path = "NSDate/NSDate+DateInRange.h"; sourceTree = "<group>"; };
+		0A3D34601A1D06BC009C4D73 /* NSDate+DateInRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+DateInRange.m"; path = "NSDate/NSDate+DateInRange.m"; sourceTree = "<group>"; };
+		0A3D34631A1D06D6009C4D73 /* NSIndexPath+PrintableIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSIndexPath+PrintableIndexPath.h"; path = "Debugging/NSIndexPath+PrintableIndexPath.h"; sourceTree = "<group>"; };
+		0A3D34641A1D06D6009C4D73 /* NSIndexPath+PrintableIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSIndexPath+PrintableIndexPath.m"; path = "Debugging/NSIndexPath+PrintableIndexPath.m"; sourceTree = "<group>"; };
+		0A3D34661A1D06EE009C4D73 /* NSMutableArray+Removal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+Removal.h"; path = "NSMutableArray/NSMutableArray+Removal.h"; sourceTree = "<group>"; };
+		0A3D34671A1D06EE009C4D73 /* NSMutableArray+Removal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+Removal.m"; path = "NSMutableArray/NSMutableArray+Removal.m"; sourceTree = "<group>"; };
+		0A3D34691A1D0701009C4D73 /* NSString+AddOns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+AddOns.h"; path = "NSString/NSString+AddOns.h"; sourceTree = "<group>"; };
+		0A3D346A1A1D0701009C4D73 /* NSString+AddOns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+AddOns.m"; path = "NSString/NSString+AddOns.m"; sourceTree = "<group>"; };
+		0A3D346C1A1D0710009C4D73 /* UIColor+Perception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Perception.h"; path = "UI Classes/UIColor+Perception.h"; sourceTree = "<group>"; };
+		0A3D346D1A1D0710009C4D73 /* UIColor+Perception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Perception.m"; path = "UI Classes/UIColor+Perception.m"; sourceTree = "<group>"; };
+		0A3D346E1A1D0710009C4D73 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "UI Classes/UIView+Frame.h"; sourceTree = "<group>"; };
+		0A3D346F1A1D0710009C4D73 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "UI Classes/UIView+Frame.m"; sourceTree = "<group>"; };
 		0AC55C571A1B24A500A9B9DB /* MDCategories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDCategories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC55C701A1B24A500A9B9DB /* MDCategoriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDCategoriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC55C751A1B24A500A9B9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,8 +86,8 @@
 		0A33FF331A1C782E00C0DC5B /* Debugging */ = {
 			isa = PBXGroup;
 			children = (
-				0A33FF171A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.h */,
-				0A33FF181A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.m */,
+				0A3D34631A1D06D6009C4D73 /* NSIndexPath+PrintableIndexPath.h */,
+				0A3D34641A1D06D6009C4D73 /* NSIndexPath+PrintableIndexPath.m */,
 			);
 			name = Debugging;
 			sourceTree = "<group>";
@@ -110,8 +104,8 @@
 		0A33FF431A1C786500C0DC5B /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				0A33FF1D1A1C781E00C0DC5B /* NSString+AddOns.h */,
-				0A33FF1E1A1C781E00C0DC5B /* NSString+AddOns.m */,
+				0A3D34691A1D0701009C4D73 /* NSString+AddOns.h */,
+				0A3D346A1A1D0701009C4D73 /* NSString+AddOns.m */,
 			);
 			name = NSString;
 			sourceTree = "<group>";
@@ -137,6 +131,7 @@
 		0AC55C591A1B24A500A9B9DB /* MDCategories */ = {
 			isa = PBXGroup;
 			children = (
+				0A3D345C1A1D0628009C4D73 /* MDCategories.h */,
 				0A33FF331A1C782E00C0DC5B /* Debugging */,
 				0A33FF431A1C786500C0DC5B /* NSString */,
 				0AC55C9C1A1B256C00A9B9DB /* NSDate */,
@@ -183,10 +178,10 @@
 		0AC55C9C1A1B256C00A9B9DB /* NSDate */ = {
 			isa = PBXGroup;
 			children = (
-				0A33FF131A1C781E00C0DC5B /* NSDate+DateComponents.h */,
-				0A33FF141A1C781E00C0DC5B /* NSDate+DateComponents.m */,
-				0A33FF151A1C781E00C0DC5B /* NSDate+DateInRange.h */,
-				0A33FF161A1C781E00C0DC5B /* NSDate+DateInRange.m */,
+				0A3D345D1A1D06BC009C4D73 /* NSDate+DateComponents.h */,
+				0A3D345E1A1D06BC009C4D73 /* NSDate+DateComponents.m */,
+				0A3D345F1A1D06BC009C4D73 /* NSDate+DateInRange.h */,
+				0A3D34601A1D06BC009C4D73 /* NSDate+DateInRange.m */,
 			);
 			name = NSDate;
 			sourceTree = "<group>";
@@ -194,8 +189,8 @@
 		0AC55C9D1A1B257900A9B9DB /* NSMutableArray */ = {
 			isa = PBXGroup;
 			children = (
-				0A33FF191A1C781E00C0DC5B /* NSMutableArray+Removal.h */,
-				0A33FF1A1A1C781E00C0DC5B /* NSMutableArray+Removal.m */,
+				0A3D34661A1D06EE009C4D73 /* NSMutableArray+Removal.h */,
+				0A3D34671A1D06EE009C4D73 /* NSMutableArray+Removal.m */,
 			);
 			name = NSMutableArray;
 			sourceTree = "<group>";
@@ -203,10 +198,10 @@
 		0AC55C9E1A1B258900A9B9DB /* UI Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0A33FF1F1A1C781E00C0DC5B /* UIColor+Perception.h */,
-				0A33FF201A1C781E00C0DC5B /* UIColor+Perception.m */,
-				0A33FF211A1C781E00C0DC5B /* UIView+Frame.h */,
-				0A33FF221A1C781E00C0DC5B /* UIView+Frame.m */,
+				0A3D346C1A1D0710009C4D73 /* UIColor+Perception.h */,
+				0A3D346D1A1D0710009C4D73 /* UIColor+Perception.m */,
+				0A3D346E1A1D0710009C4D73 /* UIView+Frame.h */,
+				0A3D346F1A1D0710009C4D73 /* UIView+Frame.m */,
 			);
 			name = "UI Classes";
 			sourceTree = "<group>";
@@ -311,15 +306,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3D34711A1D0710009C4D73 /* UIView+Frame.m in Sources */,
 				0A33FF411A1C785800C0DC5B /* main.m in Sources */,
-				0A33FF2D1A1C781E00C0DC5B /* NSString+AddOns.m in Sources */,
-				0A33FF291A1C781E00C0DC5B /* NSMutableArray+Removal.m in Sources */,
+				0A3D34611A1D06BC009C4D73 /* NSDate+DateComponents.m in Sources */,
+				0A3D34701A1D0710009C4D73 /* UIColor+Perception.m in Sources */,
+				0A3D34681A1D06EE009C4D73 /* NSMutableArray+Removal.m in Sources */,
 				0A33FF3D1A1C785800C0DC5B /* AppDelegate.m in Sources */,
-				0A33FF2F1A1C781E00C0DC5B /* UIColor+Perception.m in Sources */,
-				0A33FF311A1C781E00C0DC5B /* UIView+Frame.m in Sources */,
-				0A33FF251A1C781E00C0DC5B /* NSDate+DateInRange.m in Sources */,
-				0A33FF231A1C781E00C0DC5B /* NSDate+DateComponents.m in Sources */,
-				0A33FF271A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.m in Sources */,
+				0A3D346B1A1D0701009C4D73 /* NSString+AddOns.m in Sources */,
+				0A3D34621A1D06BC009C4D73 /* NSDate+DateInRange.m in Sources */,
+				0A3D34651A1D06D6009C4D73 /* NSIndexPath+PrintableIndexPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,14 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A33FF791A1C824E00C0DC5B /* MDColorTests.m in Sources */,
-				0A33FF241A1C781E00C0DC5B /* NSDate+DateComponents.m in Sources */,
-				0A33FF281A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.m in Sources */,
 				0AC55C9B1A1B254800A9B9DB /* MDMutableArrayTests.m in Sources */,
-				0A33FF2A1A1C781E00C0DC5B /* NSMutableArray+Removal.m in Sources */,
-				0A33FF301A1C781E00C0DC5B /* UIColor+Perception.m in Sources */,
-				0A33FF2E1A1C781E00C0DC5B /* NSString+AddOns.m in Sources */,
-				0A33FF261A1C781E00C0DC5B /* NSDate+DateInRange.m in Sources */,
-				0A33FF321A1C781E00C0DC5B /* UIView+Frame.m in Sources */,
 				0A33FF451A1C789200C0DC5B /* MDDateFormattingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
