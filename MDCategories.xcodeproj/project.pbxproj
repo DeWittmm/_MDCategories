@@ -13,10 +13,8 @@
 		0A33FF261A1C781E00C0DC5B /* NSDate+DateInRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF161A1C781E00C0DC5B /* NSDate+DateInRange.m */; };
 		0A33FF271A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF181A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.m */; };
 		0A33FF281A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF181A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.m */; };
-		0A33FF291A1C781E00C0DC5B /* NSMutableArray+EnumerateForMutation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF1A1A1C781E00C0DC5B /* NSMutableArray+EnumerateForMutation.m */; };
-		0A33FF2A1A1C781E00C0DC5B /* NSMutableArray+EnumerateForMutation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF1A1A1C781E00C0DC5B /* NSMutableArray+EnumerateForMutation.m */; };
-		0A33FF2B1A1C781E00C0DC5B /* NSMutableArray+RemoveSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF1C1A1C781E00C0DC5B /* NSMutableArray+RemoveSingle.m */; };
-		0A33FF2C1A1C781E00C0DC5B /* NSMutableArray+RemoveSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF1C1A1C781E00C0DC5B /* NSMutableArray+RemoveSingle.m */; };
+		0A33FF291A1C781E00C0DC5B /* NSMutableArray+Removal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF1A1A1C781E00C0DC5B /* NSMutableArray+Removal.m */; };
+		0A33FF2A1A1C781E00C0DC5B /* NSMutableArray+Removal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF1A1A1C781E00C0DC5B /* NSMutableArray+Removal.m */; };
 		0A33FF2D1A1C781E00C0DC5B /* NSString+AddOns.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF1E1A1C781E00C0DC5B /* NSString+AddOns.m */; };
 		0A33FF2E1A1C781E00C0DC5B /* NSString+AddOns.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF1E1A1C781E00C0DC5B /* NSString+AddOns.m */; };
 		0A33FF2F1A1C781E00C0DC5B /* UIColor+Perception.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF201A1C781E00C0DC5B /* UIColor+Perception.m */; };
@@ -30,7 +28,6 @@
 		0A33FF421A1C785800C0DC5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A33FF3C1A1C785800C0DC5B /* Main.storyboard */; };
 		0A33FF451A1C789200C0DC5B /* MDDateFormattingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF441A1C789200C0DC5B /* MDDateFormattingTests.m */; };
 		0A33FF791A1C824E00C0DC5B /* MDColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF781A1C824E00C0DC5B /* MDColorTests.m */; };
-		0AC55C771A1B24A500A9B9DB /* MDCategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC55C761A1B24A500A9B9DB /* MDCategoriesTests.m */; };
 		0AC55C9B1A1B254800A9B9DB /* MDMutableArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC55C991A1B254800A9B9DB /* MDMutableArrayTests.m */; };
 /* End PBXBuildFile section */
 
@@ -51,10 +48,8 @@
 		0A33FF161A1C781E00C0DC5B /* NSDate+DateInRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateInRange.m"; sourceTree = "<group>"; };
 		0A33FF171A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+PrintableIndexPath.h"; sourceTree = "<group>"; };
 		0A33FF181A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+PrintableIndexPath.m"; sourceTree = "<group>"; };
-		0A33FF191A1C781E00C0DC5B /* NSMutableArray+EnumerateForMutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+EnumerateForMutation.h"; sourceTree = "<group>"; };
-		0A33FF1A1A1C781E00C0DC5B /* NSMutableArray+EnumerateForMutation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+EnumerateForMutation.m"; sourceTree = "<group>"; };
-		0A33FF1B1A1C781E00C0DC5B /* NSMutableArray+RemoveSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+RemoveSingle.h"; sourceTree = "<group>"; };
-		0A33FF1C1A1C781E00C0DC5B /* NSMutableArray+RemoveSingle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+RemoveSingle.m"; sourceTree = "<group>"; };
+		0A33FF191A1C781E00C0DC5B /* NSMutableArray+Removal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Removal.h"; sourceTree = "<group>"; };
+		0A33FF1A1A1C781E00C0DC5B /* NSMutableArray+Removal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Removal.m"; sourceTree = "<group>"; };
 		0A33FF1D1A1C781E00C0DC5B /* NSString+AddOns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AddOns.h"; sourceTree = "<group>"; };
 		0A33FF1E1A1C781E00C0DC5B /* NSString+AddOns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AddOns.m"; sourceTree = "<group>"; };
 		0A33FF1F1A1C781E00C0DC5B /* UIColor+Perception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Perception.h"; sourceTree = "<group>"; };
@@ -73,7 +68,6 @@
 		0AC55C571A1B24A500A9B9DB /* MDCategories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDCategories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC55C701A1B24A500A9B9DB /* MDCategoriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDCategoriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC55C751A1B24A500A9B9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AC55C761A1B24A500A9B9DB /* MDCategoriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCategoriesTests.m; sourceTree = "<group>"; };
 		0AC55C991A1B254800A9B9DB /* MDMutableArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMutableArrayTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,7 +164,6 @@
 		0AC55C731A1B24A500A9B9DB /* MDCategoriesTests */ = {
 			isa = PBXGroup;
 			children = (
-				0AC55C761A1B24A500A9B9DB /* MDCategoriesTests.m */,
 				0A33FF441A1C789200C0DC5B /* MDDateFormattingTests.m */,
 				0AC55C991A1B254800A9B9DB /* MDMutableArrayTests.m */,
 				0A33FF781A1C824E00C0DC5B /* MDColorTests.m */,
@@ -201,10 +194,8 @@
 		0AC55C9D1A1B257900A9B9DB /* NSMutableArray */ = {
 			isa = PBXGroup;
 			children = (
-				0A33FF191A1C781E00C0DC5B /* NSMutableArray+EnumerateForMutation.h */,
-				0A33FF1A1A1C781E00C0DC5B /* NSMutableArray+EnumerateForMutation.m */,
-				0A33FF1B1A1C781E00C0DC5B /* NSMutableArray+RemoveSingle.h */,
-				0A33FF1C1A1C781E00C0DC5B /* NSMutableArray+RemoveSingle.m */,
+				0A33FF191A1C781E00C0DC5B /* NSMutableArray+Removal.h */,
+				0A33FF1A1A1C781E00C0DC5B /* NSMutableArray+Removal.m */,
 			);
 			name = NSMutableArray;
 			sourceTree = "<group>";
@@ -322,13 +313,12 @@
 			files = (
 				0A33FF411A1C785800C0DC5B /* main.m in Sources */,
 				0A33FF2D1A1C781E00C0DC5B /* NSString+AddOns.m in Sources */,
-				0A33FF291A1C781E00C0DC5B /* NSMutableArray+EnumerateForMutation.m in Sources */,
+				0A33FF291A1C781E00C0DC5B /* NSMutableArray+Removal.m in Sources */,
 				0A33FF3D1A1C785800C0DC5B /* AppDelegate.m in Sources */,
 				0A33FF2F1A1C781E00C0DC5B /* UIColor+Perception.m in Sources */,
 				0A33FF311A1C781E00C0DC5B /* UIView+Frame.m in Sources */,
 				0A33FF251A1C781E00C0DC5B /* NSDate+DateInRange.m in Sources */,
 				0A33FF231A1C781E00C0DC5B /* NSDate+DateComponents.m in Sources */,
-				0A33FF2B1A1C781E00C0DC5B /* NSMutableArray+RemoveSingle.m in Sources */,
 				0A33FF271A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,14 +331,12 @@
 				0A33FF241A1C781E00C0DC5B /* NSDate+DateComponents.m in Sources */,
 				0A33FF281A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.m in Sources */,
 				0AC55C9B1A1B254800A9B9DB /* MDMutableArrayTests.m in Sources */,
-				0A33FF2A1A1C781E00C0DC5B /* NSMutableArray+EnumerateForMutation.m in Sources */,
+				0A33FF2A1A1C781E00C0DC5B /* NSMutableArray+Removal.m in Sources */,
 				0A33FF301A1C781E00C0DC5B /* UIColor+Perception.m in Sources */,
 				0A33FF2E1A1C781E00C0DC5B /* NSString+AddOns.m in Sources */,
 				0A33FF261A1C781E00C0DC5B /* NSDate+DateInRange.m in Sources */,
 				0A33FF321A1C781E00C0DC5B /* UIView+Frame.m in Sources */,
 				0A33FF451A1C789200C0DC5B /* MDDateFormattingTests.m in Sources */,
-				0AC55C771A1B24A500A9B9DB /* MDCategoriesTests.m in Sources */,
-				0A33FF2C1A1C781E00C0DC5B /* NSMutableArray+RemoveSingle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

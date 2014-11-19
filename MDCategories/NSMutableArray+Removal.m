@@ -6,11 +6,21 @@
 //  Copyright (c) 2014 Startup-Weekend. All rights reserved.
 //
 
-#import "NSMutableArray+EnumerateForMutation.h"
+#import "NSMutableArray+Removal.h"
 
-@implementation NSMutableArray (EnumerateForMutation)
+@implementation NSMutableArray (Removal)
 
-- (BOOL)rek_enumerateForMutation:(void (^)(id obj, NSUInteger idx, BOOL *stop, BOOL *removed))block {
+- (BOOL)md_removeSingleObject:(id)obj {
+    NSInteger index = [self indexOfObject:obj];
+    
+    if (index != NSNotFound) {
+        [self removeObjectAtIndex:index];
+    }
+    
+    return index != NSNotFound;
+}
+
+- (BOOL)md_enumerateForMutation:(void (^)(id obj, NSUInteger idx, BOOL *stop, BOOL *removed))block {
     
     BOOL didRemove = NO;
     BOOL shouldStop = NO;

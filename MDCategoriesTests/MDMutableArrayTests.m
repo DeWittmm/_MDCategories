@@ -8,8 +8,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import "NSMutableArray+RemoveSingle.h"
-#import "NSMutableArray+EnumerateForMutation.h"
+#import "NSMutableArray+Removal.h"
 
 @interface REKMutableArrayTests : XCTestCase
 
@@ -33,24 +32,32 @@
     [super tearDown];
 }
 
+- (void)testShowNormalRemoval {
+    NSInteger count = [self.array count];
+
+    [self.array removeObject:self.repeatedObject];
+    
+    XCTAssertEqual(count - self.numRepeats, [self.array count]);
+}
+
 - (void)testSingleRemoval {
     NSInteger count = [self.array count];
     
-    [self.array rek_removeSingleObject:self.repeatedObject];
+    [self.array md_removeSingleObject:self.repeatedObject];
     
-    XCTAssertEqual(count-1, [self.array count]);
+    XCTAssertEqual(count - 1, [self.array count]);
     
     [self.array addObject:self.repeatedObject];
     [self.array removeObject:self.repeatedObject];
     
-    XCTAssertNotEqual(count-1, [self.array count]);
+    XCTAssertNotEqual(count - 1, [self.array count]);
 }
 
 - (void)testEnumerateRemoval {
     NSInteger count = [self.array count];
     
     BOOL didRemoveObj =
-    [self.array rek_enumerateForMutation:^(id obj, NSUInteger idx, BOOL *stop, BOOL *removed) {
+    [self.array md_enumerateForMutation:^(id obj, NSUInteger idx, BOOL *stop, BOOL *removed) {
         
         if ([obj isEqual: self.repeatedObject]) {
             [self.array removeObjectAtIndex:idx];
