@@ -7,12 +7,7 @@ Pod::Spec.new do |s|
   s.name             = "MDCategories"
   s.version          = "0.1.0"
   # s.summary          = "A short description of MDCategories."
-  # s.description      = <<-DESC
-                       An optional longer description of MDCategories
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
+  # s.description      = <<-DESC           DESC
   s.homepage         = "https://github.com/dewittmm/MDCategories"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
