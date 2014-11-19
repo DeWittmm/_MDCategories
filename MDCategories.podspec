@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.1'
   s.requires_arc = true
 
-  s.source_files = 'MDCategories/*.{h,m}'
-  s.public_header_files = 'MDCategories/*.h'
+  s.source_files = 'MDCategories/**/*.{h,m}'
+  s.public_header_files = 'MDCategories/**/*.h'
   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
