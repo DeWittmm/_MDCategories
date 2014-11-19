@@ -1,38 +1,30 @@
 #
-# Be sure to run `pod lib lint MDCategories.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
+# Be sure to run `pod lib lint MDCategories.podspec'
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 
 Pod::Spec.new do |s|
   s.name             = "MDCategories"
   s.version          = "0.1.0"
-  s.summary          = "A short description of MDCategories."
-  s.description      = <<-DESC
+  # s.summary          = "A short description of MDCategories."
+  # s.description      = <<-DESC
                        An optional longer description of MDCategories
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MDCategories"
+  s.homepage         = "https://github.com/dewittmm/MDCategories"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "DeWittmm" => "dewittmm@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MDCategories.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/DeWittmm/MDCategories.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/mm_dewitt'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '7.1'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes'
-  s.resource_bundles = {
-    'MDCategories' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.source_files = 'MDCategories'
+  s.public_header_files = 'MDCategories/*.h'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
