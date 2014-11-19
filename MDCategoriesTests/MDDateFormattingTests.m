@@ -31,17 +31,17 @@
 }
 
 - (void)testDateComponents {
-    NSString *components = [self.date1970 md_dateDayMonthYearComponents];
+    NSString *components = [self.date1970 md_dateMonthDayYearComponents];
     
     XCTAssertEqualObjects(components, @"12/31/1969");
     
     self.date1970 = nil;
-    components = [self.date1970 md_dateDayMonthYearComponents];
+    components = [self.date1970 md_dateMonthDayYearComponents];
     
     XCTAssertNil(components);
     
     NSDate *referenceDate = [NSDate dateWithTimeIntervalSinceReferenceDate:0];
-    components = [referenceDate md_dateDayMonthYearComponents];
+    components = [referenceDate md_dateMonthDayYearComponents];
     
     XCTAssertEqualObjects(components, @"12/31/2000");
 }

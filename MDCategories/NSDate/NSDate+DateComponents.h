@@ -12,7 +12,7 @@
 - (NSDateComponents *)md_dateComponents;
 
 ///Not very international but returns a nice mm/dd/yyyy
-- (NSString *)md_dateDayMonthYearComponents;
+- (NSString *)md_dateMonthDayYearComponents;
 
 /// hh:mm
 - (NSString *)md_timeComponents;

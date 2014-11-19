@@ -17,7 +17,7 @@
     return dateComponents;
 }
 
-- (NSString *)md_dateDayMonthYearComponents {
+- (NSString *)md_dateMonthDayYearComponents {
     NSDateComponents *components = [[NSCalendar currentCalendar] components:NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear fromDate:self];
     return [NSString stringWithFormat:@"%ld/%ld/%ld", (long)[components month], (long)[components day], (long)[components year]];
 }
