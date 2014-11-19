@@ -19,8 +19,8 @@
 		0A33FF2C1A1C781E00C0DC5B /* NSMutableArray+RemoveSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF1C1A1C781E00C0DC5B /* NSMutableArray+RemoveSingle.m */; };
 		0A33FF2D1A1C781E00C0DC5B /* NSString+AddOns.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF1E1A1C781E00C0DC5B /* NSString+AddOns.m */; };
 		0A33FF2E1A1C781E00C0DC5B /* NSString+AddOns.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF1E1A1C781E00C0DC5B /* NSString+AddOns.m */; };
-		0A33FF2F1A1C781E00C0DC5B /* UIColor+ex_isLightColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF201A1C781E00C0DC5B /* UIColor+ex_isLightColor.m */; };
-		0A33FF301A1C781E00C0DC5B /* UIColor+ex_isLightColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF201A1C781E00C0DC5B /* UIColor+ex_isLightColor.m */; };
+		0A33FF2F1A1C781E00C0DC5B /* UIColor+Perception.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF201A1C781E00C0DC5B /* UIColor+Perception.m */; };
+		0A33FF301A1C781E00C0DC5B /* UIColor+Perception.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF201A1C781E00C0DC5B /* UIColor+Perception.m */; };
 		0A33FF311A1C781E00C0DC5B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF221A1C781E00C0DC5B /* UIView+Frame.m */; };
 		0A33FF321A1C781E00C0DC5B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF221A1C781E00C0DC5B /* UIView+Frame.m */; };
 		0A33FF3D1A1C785800C0DC5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF351A1C785800C0DC5B /* AppDelegate.m */; };
@@ -29,6 +29,7 @@
 		0A33FF411A1C785800C0DC5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF3B1A1C785800C0DC5B /* main.m */; };
 		0A33FF421A1C785800C0DC5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A33FF3C1A1C785800C0DC5B /* Main.storyboard */; };
 		0A33FF451A1C789200C0DC5B /* MDDateFormattingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF441A1C789200C0DC5B /* MDDateFormattingTests.m */; };
+		0A33FF791A1C824E00C0DC5B /* MDColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33FF781A1C824E00C0DC5B /* MDColorTests.m */; };
 		0AC55C771A1B24A500A9B9DB /* MDCategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC55C761A1B24A500A9B9DB /* MDCategoriesTests.m */; };
 		0AC55C9B1A1B254800A9B9DB /* MDMutableArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC55C991A1B254800A9B9DB /* MDMutableArrayTests.m */; };
 /* End PBXBuildFile section */
@@ -56,8 +57,8 @@
 		0A33FF1C1A1C781E00C0DC5B /* NSMutableArray+RemoveSingle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+RemoveSingle.m"; sourceTree = "<group>"; };
 		0A33FF1D1A1C781E00C0DC5B /* NSString+AddOns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AddOns.h"; sourceTree = "<group>"; };
 		0A33FF1E1A1C781E00C0DC5B /* NSString+AddOns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AddOns.m"; sourceTree = "<group>"; };
-		0A33FF1F1A1C781E00C0DC5B /* UIColor+ex_isLightColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ex_isLightColor.h"; sourceTree = "<group>"; };
-		0A33FF201A1C781E00C0DC5B /* UIColor+ex_isLightColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ex_isLightColor.m"; sourceTree = "<group>"; };
+		0A33FF1F1A1C781E00C0DC5B /* UIColor+Perception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Perception.h"; sourceTree = "<group>"; };
+		0A33FF201A1C781E00C0DC5B /* UIColor+Perception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Perception.m"; sourceTree = "<group>"; };
 		0A33FF211A1C781E00C0DC5B /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		0A33FF221A1C781E00C0DC5B /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		0A33FF341A1C785800C0DC5B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Example/AppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -68,6 +69,7 @@
 		0A33FF3B1A1C785800C0DC5B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Example/main.m; sourceTree = SOURCE_ROOT; };
 		0A33FF3C1A1C785800C0DC5B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Example/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		0A33FF441A1C789200C0DC5B /* MDDateFormattingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDateFormattingTests.m; sourceTree = "<group>"; };
+		0A33FF781A1C824E00C0DC5B /* MDColorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDColorTests.m; sourceTree = "<group>"; };
 		0AC55C571A1B24A500A9B9DB /* MDCategories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDCategories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC55C701A1B24A500A9B9DB /* MDCategoriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDCategoriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC55C751A1B24A500A9B9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -168,9 +170,10 @@
 		0AC55C731A1B24A500A9B9DB /* MDCategoriesTests */ = {
 			isa = PBXGroup;
 			children = (
-				0A33FF441A1C789200C0DC5B /* MDDateFormattingTests.m */,
 				0AC55C761A1B24A500A9B9DB /* MDCategoriesTests.m */,
+				0A33FF441A1C789200C0DC5B /* MDDateFormattingTests.m */,
 				0AC55C991A1B254800A9B9DB /* MDMutableArrayTests.m */,
+				0A33FF781A1C824E00C0DC5B /* MDColorTests.m */,
 				0AC55C741A1B24A500A9B9DB /* Supporting Files */,
 			);
 			path = MDCategoriesTests;
@@ -209,8 +212,8 @@
 		0AC55C9E1A1B258900A9B9DB /* UI Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0A33FF1F1A1C781E00C0DC5B /* UIColor+ex_isLightColor.h */,
-				0A33FF201A1C781E00C0DC5B /* UIColor+ex_isLightColor.m */,
+				0A33FF1F1A1C781E00C0DC5B /* UIColor+Perception.h */,
+				0A33FF201A1C781E00C0DC5B /* UIColor+Perception.m */,
 				0A33FF211A1C781E00C0DC5B /* UIView+Frame.h */,
 				0A33FF221A1C781E00C0DC5B /* UIView+Frame.m */,
 			);
@@ -321,7 +324,7 @@
 				0A33FF2D1A1C781E00C0DC5B /* NSString+AddOns.m in Sources */,
 				0A33FF291A1C781E00C0DC5B /* NSMutableArray+EnumerateForMutation.m in Sources */,
 				0A33FF3D1A1C785800C0DC5B /* AppDelegate.m in Sources */,
-				0A33FF2F1A1C781E00C0DC5B /* UIColor+ex_isLightColor.m in Sources */,
+				0A33FF2F1A1C781E00C0DC5B /* UIColor+Perception.m in Sources */,
 				0A33FF311A1C781E00C0DC5B /* UIView+Frame.m in Sources */,
 				0A33FF251A1C781E00C0DC5B /* NSDate+DateInRange.m in Sources */,
 				0A33FF231A1C781E00C0DC5B /* NSDate+DateComponents.m in Sources */,
@@ -334,11 +337,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A33FF791A1C824E00C0DC5B /* MDColorTests.m in Sources */,
 				0A33FF241A1C781E00C0DC5B /* NSDate+DateComponents.m in Sources */,
 				0A33FF281A1C781E00C0DC5B /* NSIndexPath+PrintableIndexPath.m in Sources */,
 				0AC55C9B1A1B254800A9B9DB /* MDMutableArrayTests.m in Sources */,
 				0A33FF2A1A1C781E00C0DC5B /* NSMutableArray+EnumerateForMutation.m in Sources */,
-				0A33FF301A1C781E00C0DC5B /* UIColor+ex_isLightColor.m in Sources */,
+				0A33FF301A1C781E00C0DC5B /* UIColor+Perception.m in Sources */,
 				0A33FF2E1A1C781E00C0DC5B /* NSString+AddOns.m in Sources */,
 				0A33FF261A1C781E00C0DC5B /* NSDate+DateInRange.m in Sources */,
 				0A33FF321A1C781E00C0DC5B /* UIView+Frame.m in Sources */,
