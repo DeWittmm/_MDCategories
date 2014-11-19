@@ -6,10 +6,11 @@
 //  Copyright (c) 2014 Michael DeWitt. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import <UIKit/UIKit.h>
 
-#import "NSDate+ComponentsDateFormattor.h"
+#import "NSDate+DateComponents.h"
+#import "NSDate+DateInRange.h"
 
 @interface MDDateFormattingTests : XCTestCase
 
@@ -33,11 +34,35 @@
 - (void)testComponents {
     NSString *components = [self.date1970 md_dateDayMonthYearComponents];
     
-    XCTAssertEqualObjects(components, @"12/13/1969");
+    XCTAssertEqualObjects(components, @"12/31/1969");
+    
+    self.date1970 = nil;
+    components = [self.date1970 md_dateDayMonthYearComponents];
+    
+    XCTAssertNil(components);
 }
 
-- (void)testDateRange {
+- (void)testDateInRange {
     
+    NSDate *now = [NSDate date];
+    NSDate *before = [NSDate dateWithTimeIntervalSinceNow:-5000];
+    NSDate *after = [NSDate dateWithTimeIntervalSinceNow:+5];
+    
+     XCTAssertTrue([now md_isBetweenStartDate:before andEndDate:after]);
+    
+    NSArray *possibleDates = @[now, before, after];
+    
+    for (NSDate *date1 in possibleDates) {
+
+        for (NSDate *date2 in possibleDates) {
+            
+            XCTAssertFalse([before md_isBetweenStartDate:date1 andEndDate:date2]);
+            
+            XCTAssertFalse([after md_isBetweenStartDate:date1 andEndDate:date2]);
+        }
+    }
 }
+
+
 
 @end
